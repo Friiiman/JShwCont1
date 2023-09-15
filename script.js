@@ -29,7 +29,7 @@ console.log(dataNumber);
 
 // 5. Выведите содержимое тега title в консоль.
 
-const title = document.querySelector("title");
+const title = document.querySelector("title").innerHTML;
 console.log(title);
 
 // 6. Получите элемент с классом "card-title" и выведите его родительский узел в консоль.
